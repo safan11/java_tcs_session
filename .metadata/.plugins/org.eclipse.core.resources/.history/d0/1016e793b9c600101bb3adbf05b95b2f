@@ -1,0 +1,11 @@
+package com.tcs.strings.day3;
+
+public class StringDemo1 {
+
+	public static void main(String[] args) {
+		
+		char ch=65;
+		
+		System.out.println(ch);
+	}
+}

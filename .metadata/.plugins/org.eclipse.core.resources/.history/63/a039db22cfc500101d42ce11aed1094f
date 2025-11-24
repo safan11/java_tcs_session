@@ -1,0 +1,10 @@
+package com.tcs.constructor.day2;
+
+public class StaticBlockDemo {
+
+	
+	
+	public static void main(String[] args) {
+		
+	}
+}

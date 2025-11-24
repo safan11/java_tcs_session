@@ -1,0 +1,19 @@
+package com.tcs.constructor.day2;
+
+class Employee
+{
+	Employee()
+	{
+		System.out.println("employee constrcutor");
+	}
+}
+
+
+
+public class DefaultConstructor1 {
+
+	public static void main(String[] args) {
+		
+		Employee employee = new Employee();
+	}
+}

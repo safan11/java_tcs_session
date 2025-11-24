@@ -1,0 +1,31 @@
+package com.tcs.constructor.day2;
+
+class Employee
+{
+	int id;
+	String name;
+	
+	
+	 Employee()
+	{
+		System.out.println("employee constrcutor");
+	}
+	
+	void display()
+	{
+		System.out.println("this is display function");
+		System.out.println("id :"+ id);
+		System.out.println("name :"+ name);
+	}
+}
+
+
+
+public class DefaultConstructor1 {
+
+	public static void main(String[] args) {
+		
+		Employee employee = new Employee();// whenever we create the object, constructor is called
+	    employee.display();
+	}
+}

@@ -1,0 +1,18 @@
+package com.tcs.arraylist.day4;
+
+public class ProductClient {
+
+	public static void main(String[] args) {
+
+		Product product = new Product(1, "laptop", 67000.56);
+		
+		ProductService productService = new ProductService();
+		productService.addProduct(product);   
+		
+		
+		System.out.println(productService.getAllProduct());
+		
+		
+	}
+
+}

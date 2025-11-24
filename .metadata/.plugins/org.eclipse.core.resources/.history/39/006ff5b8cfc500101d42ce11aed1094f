@@ -1,0 +1,14 @@
+package com.tcs.constructor.day2;
+
+class Employee
+{
+	
+}
+
+
+public class StaticDemo2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

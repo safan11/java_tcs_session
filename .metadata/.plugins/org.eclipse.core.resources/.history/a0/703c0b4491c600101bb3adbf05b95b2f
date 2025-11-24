@@ -1,0 +1,10 @@
+package com.tcs.exception.day3;
+
+public class MultipleCatchBlock {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.tcs.encapsulation.day2;
+
+class Employee
+{
+	
+ private  int id;
+ private  String name;
+ 
+  public void setId(int id)
+  {
+	  this.id=id;
+  }
+  
+  public int getId()
+  {
+	  return id;
+  }
+
+
+}
+
+
+
+
+public class EncapsulationDemo {
+
+	public static void main(String[] args) {
+		
+		Employee employee = new Employee();
+		employee.setId(1);
+		System.out.println(employee.getId());
+	}
+}

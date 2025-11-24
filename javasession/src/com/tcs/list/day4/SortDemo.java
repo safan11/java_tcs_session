@@ -1,0 +1,26 @@
+package com.tcs.list.day4;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class SortDemo {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> nums = new ArrayList<Integer>();
+		nums.add(1);
+		nums.add(7);
+		nums.add(3);
+		nums.add(8);
+		
+		System.out.println("before sorting elements are :"+ nums);
+		
+		Collections.sort(nums);
+		
+		System.out.println("after sorting :"+ nums);
+		
+		
+		
+	}
+
+}

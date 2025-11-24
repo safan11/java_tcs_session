@@ -1,0 +1,20 @@
+package com.tcs.interfacedemo.day2;
+
+interface Payment
+{
+	void doPayment();
+}
+
+class Gpay implements Payment 
+{
+	
+}
+
+
+
+public class LoosleyCoupled {
+
+	public static void main(String[] args) {
+		
+	}
+}

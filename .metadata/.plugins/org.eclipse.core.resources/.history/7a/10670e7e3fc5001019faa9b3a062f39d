@@ -1,0 +1,18 @@
+package com.tcs.oops.day1;
+
+public class CarApp {
+
+	public static void main(String[] args) {
+
+		Car rahulCar = new Car();
+		rahulCar.kilometerDriven=7000;
+		rahulCar.checkCarStatus();
+		
+		Car anilCar = new Car();
+		anilCar.kilometerDriven=3000;
+		anilCar.checkCarStatus();
+		
+		
+	}
+
+}

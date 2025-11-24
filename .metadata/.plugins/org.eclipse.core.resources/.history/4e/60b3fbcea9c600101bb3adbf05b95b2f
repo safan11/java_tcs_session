@@ -1,0 +1,27 @@
+package com.tcs.objectclass.day3;
+
+class Employee
+{
+	int id;
+	String name;
+	
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	
+}
+
+
+
+
+
+public class ToStringDemo {
+
+	public static void main(String[] args) {
+
+		Employee employee = new Employee(1, "sachin");
+	}
+
+}

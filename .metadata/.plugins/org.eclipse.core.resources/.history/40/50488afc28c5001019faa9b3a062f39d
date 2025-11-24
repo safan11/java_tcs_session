@@ -1,0 +1,14 @@
+package com.tcs.basic.day1;
+
+public class ImplicitCasting {
+
+	public static void main(String[] args) {
+
+		  int salary = 46000;
+		  double sal = salary;  // (implicit casting)
+		
+		  double balance = 87000.45;
+		  int bal =(int) balance;
+	}
+
+}

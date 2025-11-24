@@ -1,0 +1,15 @@
+package com.tcs.interfacedemo.day2;
+
+interface Payment
+{
+	void doPayment();
+}
+
+
+
+public class LoosleyCoupled {
+
+	public static void main(String[] args) {
+		
+	}
+}

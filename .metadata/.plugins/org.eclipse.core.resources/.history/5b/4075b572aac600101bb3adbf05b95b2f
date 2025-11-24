@@ -1,0 +1,42 @@
+package com.tcs.objectclass.day3;
+
+class Employee
+{
+	int id;
+	String name;
+	
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + "]";
+	}
+	
+	
+	
+}
+
+
+
+
+
+public class ToStringDemo {
+
+	public static void main(String[] args) {
+
+		int a=10;
+		Employee employee = new Employee(1, "sachin");
+		//System.out.println("value of a :"+ a);
+		//System.out.println("value of employee :"+ employee);
+		
+		Employee employee2 = new Employee(1, "sachin");
+		
+	
+		
+	}
+
+}

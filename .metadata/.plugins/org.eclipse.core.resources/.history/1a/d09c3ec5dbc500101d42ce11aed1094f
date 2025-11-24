@@ -1,0 +1,30 @@
+package com.tcs.inheritance.day2;
+
+class Parent
+{
+	Parent(int a)
+	{
+		System.out.println("parent constructor called");
+	}
+}
+
+class Child extends Parent
+{
+	Child()
+	{
+		
+		System.out.println("child constrictor called");
+	}
+	
+}
+
+
+public class InheritanceDemo1 {
+
+	public static void main(String[] args) {
+		
+		
+		Child child = new Child();
+		
+	}
+}

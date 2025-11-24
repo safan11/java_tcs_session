@@ -1,0 +1,23 @@
+package com.tcs.constructor.day2;
+
+import java.nio.file.spi.FileSystemProvider;
+
+class Employee2
+{
+	int id;
+	String name;
+	static String companyName;
+	
+	void dipslay()
+	{
+		FileSystemProvider
+	}
+}
+
+
+public class StaticDemo2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

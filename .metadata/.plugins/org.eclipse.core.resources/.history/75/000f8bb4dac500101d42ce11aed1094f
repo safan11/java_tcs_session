@@ -1,0 +1,19 @@
+package com.tcs.inheritance.day2;
+
+class Parent
+{
+	
+}
+
+class Child extends Parent
+{
+	
+}
+
+
+public class InheritanceDemo1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

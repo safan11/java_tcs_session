@@ -1,0 +1,22 @@
+package com.tcs.objectclass.day3;
+
+class Employee
+{
+	int id;
+	String name;
+	
+	
+	
+}
+
+
+
+
+
+public class ToStringDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

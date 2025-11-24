@@ -1,0 +1,25 @@
+package com.tcs.interfacedemo.day2;
+
+interface Parent1
+{
+	void fatherName();
+}
+
+
+interface Parent2 
+{
+	 void fatherName();
+}
+
+class Child implements Parent1,Parent2 
+{
+	
+}
+
+public class MultipleInheritance {
+
+	public static void main(String[] args) {
+
+	}
+
+}

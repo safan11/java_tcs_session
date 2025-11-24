@@ -1,0 +1,10 @@
+package com.tcs.exception.day3;
+
+public class CheckedVsUnChecked {
+
+	public static void main(String[] args) {
+
+		throw new ArithmeticException("exception occured");
+	}
+
+}

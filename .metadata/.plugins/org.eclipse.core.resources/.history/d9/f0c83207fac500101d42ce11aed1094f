@@ -1,0 +1,31 @@
+package com.tcs.interfacedemo.day2;
+
+interface Bank
+{
+	 int minimumBalance=5000;
+	 
+	 void accountHolderName();
+	
+}
+
+class Customer implements Bank
+{
+
+	@Override
+	public void accountHolderName() {
+		 System.out.println("anil");
+	}
+	
+}
+
+
+
+
+
+
+public class InterfaceDemo1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

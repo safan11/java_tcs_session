@@ -1,0 +1,8 @@
+package com.tcs.constructor.day2;
+
+public class DefaultConstructor1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

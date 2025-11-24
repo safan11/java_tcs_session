@@ -1,0 +1,35 @@
+package com.tcs.exception.day3;
+
+import java.io.IOException;
+
+class Customer 
+{
+	public void validateAge(int age) throws IOException
+	{
+		if(age<18)
+			throw new IOException("age is less");
+		else
+			System.out.println("eligible ");
+	}
+}
+
+
+
+public class ThrowDemo {
+
+	public static void main(String[] args) {
+
+		Customer customer = new Customer();
+		
+		System.out.println("welcome to our app");
+		try
+		{
+			customer.validateAge(24);
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
+	}
+
+}

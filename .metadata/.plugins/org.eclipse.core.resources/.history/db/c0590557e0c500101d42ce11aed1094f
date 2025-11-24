@@ -1,0 +1,17 @@
+package com.tcs.objectclass.day2;
+
+class Employee 
+{ 
+	int id;
+	String name;
+}
+
+public class CosmicSuperClass {
+
+	public static void main(String[] args) {
+		
+		Employee employee = new Employee();
+		
+		
+	}
+}

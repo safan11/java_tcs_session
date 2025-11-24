@@ -1,0 +1,30 @@
+package com.tcs.basic.day1;
+
+import java.util.Scanner;
+
+public class SeatMap {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+	    
+		System.out.println("enter the row:");
+		int row=scanner.nextInt();
+		
+		System.out.println("enter the column:");
+		int column = scanner.nextInt();
+		
+		System.out.println("your seat map has " + row +" row and "+ column + "column");
+		
+	
+		int seatmap[][]= new int[row][column];
+		
+		System.out.println("row length :"+seatmap.length);
+		System.out.println("1st row column length  :"+ seatmap[0].length);
+		System.out.println("1st row column length  :"+ seatmap[1].length);
+
+		
+		
+	
+	}
+}

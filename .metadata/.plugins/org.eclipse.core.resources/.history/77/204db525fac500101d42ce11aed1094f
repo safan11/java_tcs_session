@@ -1,0 +1,37 @@
+package com.tcs.interfacedemo.day2;
+
+interface Bank
+{
+	 int minimumBalance=5000;
+	 
+	 void accountHolderName();
+	
+}
+
+interface Transcation
+{
+	void withdraw();
+}
+
+class Customer implements Bank,Transcation
+{
+
+	@Override
+	public void accountHolderName() {
+		 System.out.println("anil");
+	}
+	
+}
+
+
+
+
+
+
+public class InterfaceDemo1 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

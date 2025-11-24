@@ -1,0 +1,55 @@
+package com.tcs.list.day4;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class IterateDemo {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> nums = new ArrayList<Integer>();
+		nums.add(1);
+		nums.add(2);
+		nums.add(5);
+		nums.add(10);
+		
+		System.out.println("elements are :"+ nums);
+		
+		
+		System.out.println("--iterate using Iterator---");
+		
+	      Iterator<Integer> itr= nums.iterator();
+	      while(itr.hasNext())
+	      {
+	    	  System.out.println(itr.next());
+	      }
+		
+	     
+	      System.out.println("---iterate using List iterator---");
+	      ListIterator<Integer> itr2=  nums.listIterator();
+	      
+	      System.out.println("--forward direction--");
+	      while(itr2.hasNext())
+	      {
+	    	  System.out.println(itr2.next());
+	      }
+	      
+	      System.out.println("--backward direction--");
+
+	      while(itr2.hasPrevious())
+	      {
+	    	  System.out.println(itr2.previous());
+	      }
+		
+	      
+	      System.out.println("--using for each---");
+	      
+	      // for each loop. 
+	      for(Integer num: nums)
+	    	  System.out.println(num);
+	      
+		
+	}
+
+}

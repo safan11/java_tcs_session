@@ -1,0 +1,37 @@
+package com.tcs.list.day4;
+
+import java.util.ArrayList;
+
+public class GenericCollection {
+
+	public static void main(String[] args) {
+
+		// default capacity initilize to 1000 
+		// ArrayList<String> names1= new ArrayList<String>(1000);
+		
+		
+		// default capacity =10
+		ArrayList<String> names= new ArrayList<String>();
+		names.add("anil");   // insert operation
+		names.add("mahesh");
+		names.add("sunil");
+		names.add("rahul");
+		names.add("sunil");
+
+		
+		System.out.println("count of elements :"+ names.size());
+		System.out.println("elements are :"+ names);
+		System.out.println("check the names exists or not :"+ names.contains("mahesh")); 
+		
+		names.remove("sunil");  // delete operation
+		System.out.println("after remove the list is :"+ names);
+		
+		names.set(1, "ankit");
+		System.out.println("after update list is :"+ names);
+		
+		
+		
+		
+	}
+
+}

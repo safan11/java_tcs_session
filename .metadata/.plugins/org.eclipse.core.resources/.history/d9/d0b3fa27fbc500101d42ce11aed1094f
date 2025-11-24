@@ -1,0 +1,8 @@
+package com.tcs.interfacedemo.day2;
+
+public class LoosleyCoupled {
+
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,20 @@
+package com.tcs.exception.day3;
+
+class Customer 
+{
+	public void validateAge(int age)
+	{
+		
+	}
+}
+
+
+
+public class ThrowDemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

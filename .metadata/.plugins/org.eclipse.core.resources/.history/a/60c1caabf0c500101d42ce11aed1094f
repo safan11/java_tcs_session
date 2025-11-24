@@ -1,0 +1,8 @@
+package com.tcs.polymorphism.day2;
+
+public class RunTimePolymorphism {
+
+	public static void main(String[] args) {
+		
+	}
+}

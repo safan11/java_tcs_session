@@ -1,0 +1,8 @@
+package com.tcs.exception.day3;
+
+public class ExceptionDemo2 {
+
+	public static void main(String[] args) {
+		
+	}
+}

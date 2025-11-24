@@ -1,0 +1,8 @@
+package com.tcs.abstraction.day2;
+
+public class AbstractionDemo {
+
+	public static void main(String[] args) {
+		
+	}
+}

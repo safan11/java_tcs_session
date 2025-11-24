@@ -1,0 +1,18 @@
+package com.tcs.interfacedemo.day2;
+
+interface Bank
+{
+	 int minimumBalance=5000;
+	 
+	abstract void withdraw();
+}
+
+
+
+
+public class InterfaceDemo1 {
+
+	public static void main(String[] args) {
+		
+	}
+}

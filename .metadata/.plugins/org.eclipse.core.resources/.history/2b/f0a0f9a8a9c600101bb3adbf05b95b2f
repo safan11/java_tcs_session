@@ -1,0 +1,9 @@
+package com.tcs.objectclass.day3;
+
+public class ToStringDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

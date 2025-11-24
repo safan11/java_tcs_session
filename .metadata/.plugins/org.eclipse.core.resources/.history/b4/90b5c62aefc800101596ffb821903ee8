@@ -1,0 +1,28 @@
+package com.tcs.list.day4;
+
+import java.util.ArrayList;
+
+public class BulkOperation {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> batch1Names = new ArrayList<String>();
+		batch1Names.add("a");
+		batch1Names.add("b");
+		batch1Names.add("c");
+		batch1Names.add("d");
+		
+		System.out.println("batch1 names :"+batch1Names);
+		
+		ArrayList<String> batch2Names = new ArrayList<String>();
+		batch1Names.add("c");
+		batch1Names.add("d");
+		batch1Names.add("e");
+		batch1Names.add("f");
+		
+		System.out.println("batch3 names"+batch2Names);
+		
+		
+	}
+
+}

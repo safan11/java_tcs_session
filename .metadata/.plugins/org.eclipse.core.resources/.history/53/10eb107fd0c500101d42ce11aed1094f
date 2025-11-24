@@ -1,0 +1,38 @@
+package com.tcs.constructor.day2;
+
+
+class Employee2
+{
+	int id;
+	String name;
+	static String companyName;
+	
+	
+}
+
+
+public class StaticDemo2 {
+
+	public static void main(String[] args) {
+		
+		Employee2 emp1 = new Employee2();
+		emp1.id=1;
+		emp1.name="anil";
+		emp1.companyName="TCS";
+		
+		Employee2 emp2 = new Employee2();
+		emp2.id=2;
+		emp2.name="sachin";
+		emp2.companyName="CTS";
+		
+		Employee2 emp3 = new Employee2();
+		emp3.id=3;
+		emp3.name="ankit";
+		emp3.companyName="Wipro";
+		
+		System.out.println("id :"+ emp1.id + " name "+ emp1.name + " company name :"+ emp1.companyName) ;
+		System.out.println("id :"+ emp2.id + " name "+ emp3.name + " company name :"+ emp2.companyName) ;
+		System.out.println("id :"+ emp3.id + " name "+ emp3.name + " company name :"+ emp3.companyName) ;
+
+	}
+}

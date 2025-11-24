@@ -1,0 +1,16 @@
+package com.tcs.abstraction.day2;
+
+abstract class Operation
+{
+	abstract int values(int a, int b);
+}
+
+
+
+
+public class AbstractionDemo {
+
+	public static void main(String[] args) {
+		
+	}
+}

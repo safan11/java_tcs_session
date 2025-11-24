@@ -1,0 +1,23 @@
+package com.tcs.oops.day1;
+
+public class CarApp {
+
+	public static void main(String[] args) {
+
+		Car rahulCar = new Car();
+		rahulCar.kilometerDriven=7000;
+		rahulCar.modelNo=2005;
+		rahulCar.ownerName="Rahul";
+		System.out.println(rahulCar.checkCarStatus());
+		rahulCar.showDetails();
+		
+		System.out.println("-----------");
+		
+		Car anilCar = new Car();
+		anilCar.kilometerDriven=3000;
+		System.out.println(anilCar.checkCarStatus());
+		
+		
+	}
+
+}

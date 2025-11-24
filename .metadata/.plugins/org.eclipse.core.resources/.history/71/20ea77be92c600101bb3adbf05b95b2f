@@ -1,0 +1,21 @@
+package com.tcs.exception.day3;
+
+class Customer 
+{
+	public void validateAge(int age)
+	{
+		if(age<18)
+			throw new ArithmeticException("age is less");
+	}
+}
+
+
+
+public class ThrowDemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

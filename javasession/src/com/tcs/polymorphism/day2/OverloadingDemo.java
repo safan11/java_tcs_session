@@ -1,0 +1,24 @@
+package com.tcs.polymorphism.day2;
+
+class Ecommerce 
+{
+	void filter(int price)
+	{
+		System.out.println("filter by price");
+	}
+	
+	void filter(String brandName)
+	{
+		System.out.println("filter by brand name");
+	}
+}
+
+
+public class OverloadingDemo {
+
+	public static void main(String[] args) {
+		
+		Ecommerce ecommerce = new Ecommerce();
+		ecommerce.filter("samsung");  // one method different behaviour.
+	}
+}
