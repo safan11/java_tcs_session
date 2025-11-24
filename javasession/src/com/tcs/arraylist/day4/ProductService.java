@@ -7,6 +7,13 @@ public class ProductService {
 
 	ArrayList<Product> products = new ArrayList<Product>();
 	
+	public ProductService() {
+		 
+		products.add(new Product(1, "laptop", 50000.80));
+		products.add(new Product(2, "keyboard", 1000.30));
+		products.add(new Product(3, "mic", 2000.78));
+	}
+	
 	// add product
 	public void addProduct(Product product)
 	{

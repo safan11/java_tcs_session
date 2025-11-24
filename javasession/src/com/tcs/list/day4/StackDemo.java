@@ -1,0 +1,22 @@
+package com.tcs.list.day4;
+
+import java.util.Stack;
+
+public class StackDemo {
+
+	public static void main(String[] args) {
+
+		Stack nums = new Stack();
+	    nums.add(1);// from jdk 1.2 
+	    nums.push(2);// before collection 
+	    nums.push(3);
+	    
+	    System.out.println("elements are :"+ nums);
+	    
+	    System.out.println("reteriv top element :"+nums.peek());
+	    System.out.println("remove the top elements and return it :"+ nums.pop());
+	    System.out.println("after pop :"+ nums);
+	    
+	}
+
+}

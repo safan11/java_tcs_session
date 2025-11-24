@@ -1,0 +1,15 @@
+package com.tcs.set.day4;
+
+import java.util.HashSet;
+
+public class SetDemo2 {
+
+	public static void main(String[] args) {
+		
+		HashSet<String> names = new HashSet<String>();
+		names.add("ankit");
+		names.add("ankit");
+		
+		System.out.println(names);
+	}
+}

@@ -1,0 +1,25 @@
+package com.tcs.set.day4;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+
+		
+		//
+		Set<String> names = new LinkedHashSet<String>();
+		names.add("suraj");
+		names.add("nikil");
+		names.add("revant");
+		names.add("vamshi");
+		names.add("nikil");
+		names.add("archana");
+		
+		System.out.println("names :"+ names);
+		
+	}
+
+}

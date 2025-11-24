@@ -1,17 +1,41 @@
 package com.tcs.arraylist.day4;
 
+import java.util.List;
+import java.util.Scanner;
+
 public class ProductClient {
 
 	public static void main(String[] args) {
-
-		Product product = new Product(1, "laptop", 67000.56);
 		
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter id");
+		int id=scanner.nextInt();
+		scanner.nextLine(); // the move the curson to next line
+		
+		System.out.println("enter name");
+		String name=scanner.nextLine();
+		
+		System.out.println("enter price");
+		double price = scanner.nextDouble();
+		
+		System.out.println("log msg --the values are "+ id + " "+ name +" "+ " "+ price);
+
+		Product product = new Product(id, name, price);
+		
+		// creating the object for service , to access the method of service
 		ProductService productService = new ProductService();
+		
+		
+		// add operation
 		productService.addProduct(product);   
 		
+		// reterive all
+		 List<Product> products = productService.getAllProduct();
+		 for(Product product2 : products)
+			 System.out.println(product2.getId() +" "+ product2.getName() + " "+ product2.getPrice());
 		
-		System.out.println(productService.getAllProduct());
-		
+		 
 		
 	}
 

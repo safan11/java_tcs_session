@@ -1,0 +1,18 @@
+package com.tcs.map.day4;
+
+import java.util.HashMap;
+
+public class MapDemo {
+
+	public static void main(String[] args) {
+
+		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		hm.put(1, "anil");
+		hm.put(2, "suraj");
+		hm.put(3, "manoj");
+		hm.put(2, "rahul");
+
+	
+	}
+
+}

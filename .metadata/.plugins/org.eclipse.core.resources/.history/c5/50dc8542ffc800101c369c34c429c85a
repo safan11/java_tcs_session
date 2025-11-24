@@ -1,0 +1,21 @@
+package com.tcs.arraylist.day4;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductService {
+
+	ArrayList<Product> products = new ArrayList<Product>();
+	
+	// add product
+	public void addProduct(Product product)
+	{
+		products.add(product);
+	}
+	
+	// get all products
+	public ArrayList<Product> getAllProduct()
+	{
+		return products;
+	}
+}
