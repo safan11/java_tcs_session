@@ -50,4 +50,6 @@
     <fullyQualifiedTypeName name="com.tcs.set.day4.Employee"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="Car"/>
+    <fullyQualifiedTypeName name="VehicleType"/>
 </qualifiedTypeNameHistroy>

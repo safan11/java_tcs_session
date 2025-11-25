@@ -1,0 +1,47 @@
+
+enum VehicleType {
+	SCOOTER(2), BIKE(2), CAR(4);
+	
+	final int tyre;
+
+	private VehicleType(int tyre) {
+		this.tyre = tyre;
+	}
+
+	public int getTyre() {
+		return tyre;
+	}
+	
+	
+	
+
+}
+
+class Car {
+	String name;
+	VehicleType vehicleType;
+
+	public Car(String name, VehicleType vehicleType) {
+		super();
+		this.name = name;
+		this.vehicleType = vehicleType;
+	}
+
+	void display() {
+		System.out.println("name :" + name);
+		System.out.println(vehicleType);
+		System.out.println(vehicleType.getTyre());
+	}
+
+}
+
+public class EnumDemo {
+
+	public static void main(String[] args) {
+
+		Car car = new Car("jupiter", VehicleType.CAR);
+		car.display();
+
+	}
+
+}

@@ -29,10 +29,6 @@ public class MapDemo {
 		System.out.println("--------------------");
 		
 		
-		
-		
-		
-		
 		HashMap<Integer, String> names = new HashMap<Integer, String>();
 		names.putIfAbsent(1, "manoj");
 		names.putIfAbsent(2, "sachin");

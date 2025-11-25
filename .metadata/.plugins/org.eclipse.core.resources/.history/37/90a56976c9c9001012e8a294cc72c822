@@ -1,0 +1,43 @@
+
+enum VehicleType
+{
+	SCOOTER, 
+	BIKE,
+	CAR
+	
+}
+
+class Car 
+{
+	String name;
+	VehicleType vehicleType;
+	
+	
+	
+	public Car(String name, VehicleType vehicleType) {
+		super();
+		this.name = name;
+		this.vehicleType = vehicleType;
+	}
+
+
+
+	void display()
+	{
+		System.out.println("name :"+ name);
+		System.out.println(vehicleType);
+	}
+	
+}
+
+
+public class EnumDemo {
+
+	public static void main(String[] args) {
+
+		Car car = new Car("jupiter", VehicleType.SCOOTER);
+	    car.display();
+		
+	}
+
+}

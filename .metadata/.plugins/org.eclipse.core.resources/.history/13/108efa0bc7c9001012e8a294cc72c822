@@ -1,0 +1,90 @@
+package com.tcs.transaction;
+
+import java.util.Scanner;
+
+enum TableStatus {
+    AVAILABLE,
+    BOOKED
+}
+
+public class RestaurantBooking {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        // 5 tables with default status AVAILABLE
+        TableStatus[] tables = new TableStatus[5];
+
+        // Initialize all tables
+        for (int i = 0; i < tables.length; i++) {
+            tables[i] = TableStatus.AVAILABLE;
+        }
+
+        int choice;
+
+        do {
+            System.out.println("\n--- Restaurant Table Booking System ---");
+            System.out.println("1. View All Tables");
+            System.out.println("2. Book a Table (Index 0-4)");
+            System.out.println("3. Release a Table (Index 0-4)");
+            System.out.println("4. Exit");
+            System.out.print("Enter choice: ");
+            choice = sc.nextInt();
+
+            switch (choice) {
+                case 1 -> showTables(tables);
+                case 2 -> bookTable(tables, sc);
+                case 3 -> releaseTable(tables, sc);
+                case 4 -> System.out.println("Thank you!");
+                default -> System.out.println("Invalid choice!");
+            }
+
+        } while (choice != 4);
+
+        sc.close();
+    }
+
+    // Show status of every table
+    private static void showTables(TableStatus[] tables) {
+        System.out.println("\nTable Status:");
+        for (int i = 0; i < tables.length; i++) {
+            System.out.println("Index " + i + " -> " + tables[i]);
+        }
+    }
+
+    // Book a table by ZERO-BASED index
+    private static void bookTable(TableStatus[] tables, Scanner sc) {
+        System.out.print("Enter table INDEX to book (0-4): ");
+        int index = sc.nextInt();
+
+        if (index < 0 || index >= tables.length) {
+            System.out.println("Invalid index!");
+            return;
+        }
+
+        if (tables[index] == TableStatus.BOOKED) {
+            System.out.println("Table " + index + " is already booked!");
+        } else {
+            tables[index] = TableStatus.BOOKED;
+            System.out.println("Table " + index + " booked successfully!");
+        }
+    }
+
+    // Release a table by ZERO-BASED index
+    private static void releaseTable(TableStatus[] tables, Scanner sc) {
+        System.out.print("Enter table INDEX to release (0-4): ");
+        int index = sc.nextInt();
+
+        if (index < 0 || index >= tables.length) {
+            System.out.println("Invalid index!");
+            return;
+        }
+
+        if (tables[index] == TableStatus.AVAILABLE) {
+            System.out.println("Table " + index + " is already available!");
+        } else {
+            tables[index] = TableStatus.AVAILABLE;
+            System.out.println("Table " + index + " released successfully!");
+        }
+    }
+}

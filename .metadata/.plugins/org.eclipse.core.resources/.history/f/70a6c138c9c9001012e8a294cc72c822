@@ -1,0 +1,31 @@
+
+enum VehicleType
+{
+	SCOOTER, 
+	BIKE,
+	CAR
+	
+}
+
+class Car 
+{
+	String name;
+	VehicleType vehicleType;
+	
+	void display()
+	{
+		System.out.println("name :"+ name);
+		System.out.println(vehicleType.name());
+	}
+	
+}
+
+
+public class EnumDemo {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}
