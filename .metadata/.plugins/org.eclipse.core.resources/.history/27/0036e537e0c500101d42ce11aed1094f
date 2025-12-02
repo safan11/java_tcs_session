@@ -1,8 +1,0 @@
-package com.tcs.objectclass.day2;
-
-public class CosmicSuperClass {
-
-	public static void main(String[] args) {
-		
-	}
-}

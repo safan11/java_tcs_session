@@ -1,8 +1,0 @@
-package com.tcs.encapsulation.day2;
-
-public class EncapsulationDemo {
-
-	public static void main(String[] args) {
-		
-	}
-}

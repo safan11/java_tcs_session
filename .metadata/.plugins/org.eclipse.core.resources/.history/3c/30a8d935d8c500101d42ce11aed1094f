@@ -1,6 +1,0 @@
-package com.tcs.encapsulation.day2;
-
-public class EncapsulationDemo {
-
-	private int id;
-}

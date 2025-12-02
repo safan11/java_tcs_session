@@ -1,9 +1,0 @@
-package com.tcs.exception.day2;
-
-public class ExceptionDemo1 {
-
-	public static void main(String[] args) {
-		
-		System.out.println();
-	}
-}

@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=looselycoupled/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tcs.dao{DBConnect.java[DBConnect" modifiers="513" timestamp="1764584572992"/>
+    <typeInfo handle="=looselycoupled/C:\/Users\/safan\/.m2\/repository\/org\/springframework\/spring-core\/5.2.11.RELEASE\/spring-core-5.2.11.RELEASE.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-core=/=/maven.version=/5.2.11.RELEASE=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.core.io.buffer(DataBuffer.class[DataBuffer" modifiers="1537" timestamp="1764321145844"/>
+    <typeInfo handle="=springcoretask1/C:\/Program Files\/Java\/jdk-22\/lib\/jrt-fs.jar`jdk.xml.dom=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/22\/docs\/api\/=/=/maven.pomderived=/true=/&lt;org.w3c.dom.css(Counter.class[Counter" modifiers="1537" timestamp="1720980487114"/>
+    <typeInfo handle="=springcoretask1/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tcs.repository{Course.java[Course" modifiers="513" timestamp="1764649820189"/>
+</typeInfoHistroy>

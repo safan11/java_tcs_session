@@ -1,8 +1,0 @@
-package com.tcs.inheritance.day2;
-
-public class SuperVariableDemo {
-
-	public static void main(String[] args) {
-		
-	}
-}
