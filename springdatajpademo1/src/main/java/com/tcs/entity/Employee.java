@@ -65,6 +65,11 @@ public class Employee {
 	public void setAge(int age) {
 		this.age = age;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", dept=" + dept + ", age=" + age + "]";
+	}
 	
 	
 	
