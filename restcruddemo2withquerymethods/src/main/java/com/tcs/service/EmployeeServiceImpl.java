@@ -3,6 +3,7 @@ package com.tcs.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 
 import com.tcs.entity.Employee;
@@ -16,13 +17,13 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 	@Autowired
 	EmployeeRepository employeeRepository;
-	
+
 	
 	@Override
 	public Employee addEmployee(Employee employee) throws InValidAgeException {
 		
 		if(employee.getAge()<22)
-			throw new InValidAgeException(AppConstant.AGE_INVALID_MESSAGE);
+			throw new InValidAgeException(AppConstant.ID_NOT_FOUND_MESSAGE);
 		
 		return employeeRepository.save(employee);
 	}
@@ -44,7 +45,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	 */
 	@Override
 	public Employee getEmployeeById(int id) throws IdNotFoundException {
-		return employeeRepository.findById(id).orElseThrow(()->new IdNotFoundException(AppConstant.ID_NOT_FOUND_MESSAGE));
+		return employeeRepository.findById(id).orElseThrow(()->new IdNotFoundException(AppConstant.AGE_INVALID_MESSAGE));
 	}
 	
 	
@@ -68,7 +69,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public Employee updateEmployeeById(int id, Employee employee) throws IdNotFoundException {
 		    
-		Employee employee2=   employeeRepository.findById(id).orElseThrow(()-> new IdNotFoundException("no id found to update"));
+		Employee employee2=   employeeRepository.findById(id).orElseThrow(()-> new IdNotFoundException(AppConstant.ID_NOT_FOUND_MESSAGE));
 		 employee2.setName(employee.getName());  
 		 employee2.setDept(employee.getDept());
 		 employee2.setSalary(employee.getSalary());
@@ -76,5 +77,31 @@ public class EmployeeServiceImpl implements EmployeeService {
 		 employeeRepository.save(employee2);
 		return employee2;
 	}
+
+
+	@Override
+	public Employee findByName(String name) {
+		return employeeRepository.findByName(name);
+	}
+
+
+	@Override
+	public List<Employee> findByDept(String dept) {
+		return employeeRepository.findByDept(dept);
+	}
+
+
+	@Override
+	public List<Employee> getEmployeeByAgeLessThan(int age) {
+		return employeeRepository.findByAgeLessThan(age);
+	}
+
+
+	@Override
+	public List<Employee> findByDeptUsingJpql(String dept) {
+		return employeeRepository.getEmployeesByDept(dept);
+	}
+	
+	
 
 }

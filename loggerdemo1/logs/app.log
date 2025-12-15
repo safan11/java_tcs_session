@@ -1,0 +1,21 @@
+2025-12-10T15:22:28.433+05:30  INFO 34044 --- [loggerdemo1] [main] com.tcs.Loggerdemo1Application           : Starting Loggerdemo1Application using Java 22.0.1 with PID 34044 (D:\tcs\corejava workspace\loggerdemo1\target\classes started by safan in D:\tcs\corejava workspace\loggerdemo1)
+2025-12-10T15:22:28.442+05:30  INFO 34044 --- [loggerdemo1] [main] com.tcs.Loggerdemo1Application           : No active profile set, falling back to 1 default profile: "default"
+2025-12-10T15:22:29.001+05:30  INFO 34044 --- [loggerdemo1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-10T15:22:29.018+05:30  INFO 34044 --- [loggerdemo1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-10T15:22:29.018+05:30  INFO 34044 --- [loggerdemo1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-10T15:22:29.056+05:30  INFO 34044 --- [loggerdemo1] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 578 ms
+2025-12-10T15:22:29.337+05:30  INFO 34044 --- [loggerdemo1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-10T15:22:29.341+05:30  INFO 34044 --- [loggerdemo1] [main] com.tcs.Loggerdemo1Application           : Started Loggerdemo1Application in 1.289 seconds (process running for 1.839)
+2025-12-10T15:23:10.865+05:30  INFO 34044 --- [loggerdemo1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-10T15:23:10.866+05:30  INFO 34044 --- [loggerdemo1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-10T15:23:10.868+05:30  INFO 34044 --- [loggerdemo1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-10T15:23:10.899+05:30  INFO 34044 --- [loggerdemo1] [http-nio-8080-exec-2] com.tcs.controller.ProductController     : this is info message , inside home
+2025-12-10T15:23:10.899+05:30  WARN 34044 --- [loggerdemo1] [http-nio-8080-exec-2] com.tcs.controller.ProductController     : this is warn message
+2025-12-10T15:23:10.899+05:30 ERROR 34044 --- [loggerdemo1] [http-nio-8080-exec-2] com.tcs.controller.ProductController     : this is error message
+2025-12-10T15:23:11.625+05:30  INFO 34044 --- [loggerdemo1] [http-nio-8080-exec-5] com.tcs.controller.ProductController     : this is info message , inside home
+2025-12-10T15:23:11.626+05:30  WARN 34044 --- [loggerdemo1] [http-nio-8080-exec-5] com.tcs.controller.ProductController     : this is warn message
+2025-12-10T15:23:11.627+05:30 ERROR 34044 --- [loggerdemo1] [http-nio-8080-exec-5] com.tcs.controller.ProductController     : this is error message
+2025-12-10T15:27:06.639+05:30  INFO 34044 --- [loggerdemo1] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-10T15:27:06.644+05:30  INFO 34044 --- [loggerdemo1] [RMI TCP Connection(14)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-10T15:27:06.653+05:30  INFO 34044 --- [loggerdemo1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-10 15:27:08 - (INFO 2025-12-10 15:27:08 - (INFO 2025-12-10 15:27:08 - (INFO 2025-12-10 15:27:08 - (INFO 2025-12-10 15:27:08 - (INFO 2025-12-10 15:27:08 - (INFO 2025-12-10 15:27:09 - (INFO 2025-12-10 15:27:09 - (INFO 2025-12-10 15:56:49 - (INFO 2025-12-10 15:56:49 - (INFO 2025-12-10 15:56:49 - (INFO 
