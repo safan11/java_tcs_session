@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://example.com/calculator"
+           xmlns="http://example.com/calculator"
+           elementFormDefault="qualified">
+
+    <xs:simpleType name="Operation">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ADD"/>
+            <xs:enumeration value="SUB"/>
+            <xs:enumeration value="MUL"/>
+            <xs:enumeration value="DIV"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:element name="CalculateRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="a" type="xs:int"/>
+                <xs:element name="b" type="xs:int"/>
+                <xs:element name="operation" type="Operation"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="CalculateResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="result" type="xs:int"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
